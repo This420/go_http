@@ -12,7 +12,7 @@ func main() {
 
 	res, err := http.Get(url)
 	if err != nil {
-		panic("URLを第1引数に指定してください")
+		panic("URLを第1引数に指定してください!!")
 	}
 
 	defer res.Body.Close()
